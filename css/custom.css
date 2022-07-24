@@ -1,0 +1,171 @@
+/* ----------------------------------
+
+Name: custom.css
+Version: 1.0
+
+This file is added for the specific
+Papiamentu.ai website. It overwrites
+the main.css.
+
+Color notes:
+
+  Dark green : #0c545b
+  Light green : #197982
+
+------------------------------------- */
+
+/* [0. General Overwrites] */
+
+.line {
+  background: linear-gradient(to right, #0c545b 0%, #10d596 100%) !important;
+}
+
+/* [1. Start Navbar] */
+
+.navbar {
+  background: #197982;
+}
+
+.navbar-light .navbar-brand span {
+  color: white;
+  display: inline;
+  padding-left: 10px;
+}
+
+.navbar-light .navbar-brand img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.navbar .nav-item .nav-link {
+  font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #0c545b;
+}
+
+.navbar .btn-1 {
+  color: #0c545b;
+}
+
+.navbar .btn-1:hover {
+  background: #0c545b;
+  border: 1px solid #0c545b;
+  box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+/* [2. Start Slider] */
+
+.slider {
+  background: #0c545b;
+}
+
+.slider img {
+  width: 75%;
+}
+
+.slider .content .left .btn-1 {
+  color: #0c545b;
+}
+
+.slider .content .left .btn-1:hover {
+  background: #197982;
+  border: 1px solid #197982;
+  box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+/* [4. Start Some Facts] */
+
+.some-facts {
+  background: #197982;
+  padding: 90px 0;
+}
+
+/* [5. Start Project] */
+
+.project .heading {
+  font-size: 30px;
+  color: #3b566e;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.project .line {
+  height: 2px;
+  width: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.project p {
+  text-align: justify;
+}
+
+.project img {
+  border-radius: 10%;
+}
+
+/* [9. Start Team] */
+
+.our-team .box .image img {
+  border-radius: 10%;
+}
+
+/* [10. Start Get Started] */
+
+.get-started {
+  background: #197982;
+}
+
+.get-started .btn-1 {
+  color: #0c545b;
+}
+
+.get-started .btn-1:hover {
+  background: #0c545b;
+  border: 1px solid #0c545b;
+  box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+/* [12. Start Project-2] */
+
+.project-2 {
+  padding: 120px 0;
+}
+
+.project-2 p {
+  text-align: justify;
+}
+
+.project-2 img {
+  border-radius: 10%;
+}
+
+/* [14. Start Clients] */
+
+.clients {
+  background: #197982;
+}
+
+/* [15. Start Contact Us] */
+
+.contact .content .info h4 span {
+  color: #0c545b;
+}
+
+/* [16. Start Footer] */
+
+.footer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* [18. Start Media Query] */

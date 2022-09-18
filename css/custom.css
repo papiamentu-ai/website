@@ -20,6 +20,10 @@ Color notes:
   background: linear-gradient(to right, #0c545b 0%, #10d596 100%) !important;
 }
 
+.blue-background {
+  background: #e9eef4 !important;
+}
+
 /* [1. Start Navbar] */
 
 .navbar {
@@ -55,6 +59,35 @@ Color notes:
   border: 1px solid #0c545b;
   box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
   color: #fff;
+}
+
+.navbar .dropdown .btn:focus {
+  box-shadow: none;
+}
+
+.navbar .dropdown .btn::after {
+  color: #0c545b;
+}
+
+.navbar .dropdown .dropdown-menu {
+  background: #0c545b;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item {
+  padding-left: 0.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown .dropdown-menu .dropdown-item:focus {
+  background: #197982;
+}
+
+.navbar .dropdown.flag-menu img.flag,
+.navbar .dropdown.flag-menu .dropdown-menu .dropdown-item img.flag {
+  max-height: 20px;
+  border-radius: 10%;
 }
 
 /* [2. Start Slider] */
@@ -111,9 +144,58 @@ Color notes:
   border-radius: 10%;
 }
 
+/* [Start FAQ] */
+
+.faq {
+  padding: 120px 0;
+  background: #f1f7ff;
+}
+
+.faq .heading {
+  font-size: 30px;
+  color: #3b566e;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.faq .line {
+  background: linear-gradient(to right, #507bf5 0%, #04c3e1, 100%);
+  height: 2px;
+  width: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.faq .box {
+  padding: 0 30px;
+}
+
+.faq .box h3 {
+  font-size: 20px;
+  color: #3b566e;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  padding: 0;
+}
+
+.faq .box p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #919aaf;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.faq .mb-30 {
+  margin-bottom: 40px;
+}
+
 /* [9. Start Team] */
 
 .our-team .box .image img {
+  width: 75%;
   border-radius: 10%;
 }
 

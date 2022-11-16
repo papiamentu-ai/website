@@ -46,7 +46,7 @@ body {
 .navbar .nav-item .nav-link {
     padding: 0;
     margin: 0 0 0 45px;
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 600;
     transition: all 0.4s ease-in-out;
@@ -62,7 +62,7 @@ body {
     color: #ffffff;
     border-radius: 65px;
     padding: 10px 45px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 45px;
     transition: all 0.2s ease-in;
@@ -94,10 +94,10 @@ body {
     padding: 0;
 }
 .slider .content .left p {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 400;
     color: #ffffff;
-    line-height: 26px;
+    line-height: 35px;
     padding: 0;
     margin: 10px 0 30px;
 }
@@ -108,7 +108,7 @@ body {
     color: #ffffff;
     border-radius: 65px;
     padding: 10px 45px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     display: inline-block;
 }
@@ -120,7 +120,7 @@ body {
     border-radius: 65px;
     padding: 10px 45px;
     margin-left: 15px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     display: inline-block;
 }
@@ -217,12 +217,14 @@ body {
 .project p {
     font-size: 16px;
     font-weight: 400;
-    color: #919aaf;
+    color: #464c5c;
+    /*color: #919aaf;*/
     line-height: 26px;
     margin: 0;
     padding: 0;
     margin-top: 15px;
     margin-bottom: 40px;
+
 }
 .project .right .btn-1 {
     background: #10d596;

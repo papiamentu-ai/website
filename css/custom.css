@@ -9,7 +9,7 @@ the main.css.
 
 Color notes:
 
-  Dark green : #0c545b
+  Dark green : #00555d
   Light green : #197982
 
 ------------------------------------- */
@@ -17,7 +17,7 @@ Color notes:
 /* [0. General Overwrites] */
 
 .line {
-  background: linear-gradient(to right, #0c545b 0%, #10d596 100%) !important;
+  background: linear-gradient(to right, #00555d 0%, #10d596 100%) !important;
 }
 
 .blue-background {
@@ -47,16 +47,16 @@ Color notes:
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #0c545b;
+  color: #00555d;
 }
 
 .navbar .btn-1 {
-  color: #0c545b;
+  color: #00555d;
 }
 
 .navbar .btn-1:hover {
-  background: #0c545b;
-  border: 1px solid #0c545b;
+  background: #00555d;
+  border: 1px solid #00555d;
   box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
   color: #fff;
 }
@@ -66,11 +66,11 @@ Color notes:
 }
 
 .navbar .dropdown .btn::after {
-  color: #0c545b;
+  color: #00555d;
 }
 
 .navbar .dropdown .dropdown-menu {
-  background: #0c545b;
+  background: #00555d;
 }
 
 .navbar .dropdown .dropdown-menu .dropdown-item {
@@ -93,7 +93,7 @@ Color notes:
 /* [2. Start Slider] */
 
 .slider {
-  background: #0c545b;
+  background: #00555d;
 }
 
 .slider img {
@@ -101,7 +101,7 @@ Color notes:
 }
 
 .slider .content .left .btn-1 {
-  color: #0c545b;
+  color: #00555d;
 }
 
 .slider .content .left .btn-1:hover {
@@ -177,6 +177,7 @@ Color notes:
   font-weight: 600;
   margin: 20px 0 10px;
   padding: 0;
+  cursor: pointer;
 }
 
 .faq .box p {
@@ -206,12 +207,12 @@ Color notes:
 }
 
 .get-started .btn-1 {
-  color: #0c545b;
+  color: #00555d;
 }
 
 .get-started .btn-1:hover {
-  background: #0c545b;
-  border: 1px solid #0c545b;
+  background: #00555d;
+  border: 1px solid #00555d;
   box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0);
   color: #fff;
 }
@@ -239,7 +240,7 @@ Color notes:
 /* [15. Start Contact Us] */
 
 .contact .content .info h4 span {
-  color: #0c545b;
+  color: #00555d;
 }
 
 /* [16. Start Footer] */
